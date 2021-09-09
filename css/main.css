@@ -192,19 +192,25 @@ h3.heading{
   color: white;
 }
 div.footer{
-  display: none;
+  padding-top: 20px;
   color: white;
-  align-items: center;
+  text-align: center;
 }
 div.footer h2{
   color: white;
   font-size: 20px;
+  align-items: flex-start;
+  margin-bottom: 20px;
 }
 div.footer a{
   text-decoration: none;
   color: white;
-  text-align: right;
-  font-size: 20px;
+  font-size: 30px;
+  font-family: 'bankgothic_md_btmedium';
+}
+div.footer a:hover{
+  color: greenyellow;
+ 
 }
 @media (max-width: 992px) {
   .alert-validate::before {
@@ -481,6 +487,14 @@ div.footer a{
 
 
 }
+@media (max-width: 853px){
+h3.heading {
+    font-family: 'bankgothic_md_btmedium';
+    font-size: 158px;
+    text-align: center;
+    color: white;
+  }
+}
 
 
 /*//////////////////////////////////////////////////////////////////
@@ -555,6 +569,14 @@ div.footer a{
     color: white;
   }
 }
+@media (max-width: 630px){
+h3.heading {
+    font-family: 'bankgothic_md_btmedium';
+    font-size: 105px;
+    text-align: center;
+    color: white;
+  }
+}
 
 
 /*//////////////////////////////////////////////////////////////////
@@ -591,6 +613,20 @@ div.footer a{
     font-size: 80px;
     text-align: center;
     color: white;
+  }
+}
+@media (max-width: 380px){  
+  h3.heading {
+    font-family: 'bankgothic_md_btmedium';
+    font-size: 76px;
+    text-align: center;
+    color: white;
+}
+div.footer a {
+  text-decoration: none;
+  color: white;
+  font-size: 19px;
+  font-family: 'bankgothic_md_btmedium';
   }
 }
 @media (max-width: 360px) {
